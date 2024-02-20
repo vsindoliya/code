@@ -1,0 +1,55 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: cadetblue;
+
+    /* animation-name: fontAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: colorAnimation 2s ease-in 0s infinite alternate-reverse; */
+    /* animation: bothAnimation 2s ease-in 0s infinite alternate-reverse; */
+    animation: percentageAnimation 2s ease-in 0s infinite alternate-reverse;
+}
+@keyframes fontAnimation{
+    form{
+        font-size:20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes colorAnimation{
+    form{
+        background-color: cadetblue;
+    }
+    to{
+        background-color: chartreuse;
+    }
+}
+@keyframes bothAnimation{
+    from{
+        font-size:20px;
+        background-color: cadetblue;
+    }
+    to{
+        font-size:40px;
+        background-color: chartreuse;
+    }
+}
+@keyframes percentageAnimation{
+    0%{
+        font-size: 20px;
+        background-color: cadetblue;
+    }
+    50%{
+        font-size:40px;
+        background-color: chartreuse;
+    }
+    100%{
+        font-size:80px;
+        background-color: darkred;
+    }
+}

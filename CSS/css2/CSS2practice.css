@@ -1,0 +1,41 @@
+/* Question 1 */
+#mainTopic{
+    color: blue;
+}
+/* Question 2 */
+*{
+    text-align: center;
+}
+/* Question 3 */
+.heading{
+    font-family: Georgia;
+}
+/* Question 4 */
+p{
+    color: white;
+    background-color: cornflowerblue;
+}
+/* Question 5 */
+div button{
+    color: azure;
+    background-color: purple;
+}
+/* Question 6 */
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+/* Question 7 */
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+/* Question 8 */
+h1::first-letter{
+    color: red;
+}
+/* Question 9 */
+#yes:checked+label{
+    color: darkgreen;
+}
+/* Question 10 */
+/* #,div.,.,h1 */
